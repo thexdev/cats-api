@@ -2,11 +2,19 @@
   "name": "cats-api",
   "version": "1.0.0",
   "description": "just api service to manage my cats",
-  "main": "index.js",
+  "main": "app.js",
   "author": "M. Akbar Nugroho",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
