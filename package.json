@@ -1,0 +1,12 @@
+{
+  "name": "cats-api",
+  "version": "1.0.0",
+  "description": "just api service to manage my cats",
+  "main": "index.js",
+  "author": "M. Akbar Nugroho",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
