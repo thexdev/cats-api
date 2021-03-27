@@ -1,23 +1,34 @@
 {
-  "name": "cats-api",
-  "version": "1.0.0",
-  "description": "just api service to manage my cats",
-  "main": "app.js",
-  "author": "M. Akbar Nugroho",
-  "license": "MIT",
-  "private": false,
+  "name": "adonis-fullstack-app",
+  "version": "4.1.0",
+  "adonis-version": "4.1.0",
+  "description": "The fullstack application boilerplate for Adonisjs",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "test": "node ace test"
   },
+  "keywords": [
+    "adonisjs",
+    "adonis-app"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "compression": "^1.7.4",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "morgan": "^1.10.0",
-    "uniqid": "^5.2.0"
+    "@adonisjs/ace": "^5.0.8",
+    "@adonisjs/auth": "^3.0.7",
+    "@adonisjs/bodyparser": "~2.0.9",
+    "@adonisjs/cors": "^1.0.7",
+    "@adonisjs/fold": "^4.0.9",
+    "@adonisjs/framework": "^5.0.9",
+    "@adonisjs/ignitor": "^2.0.8",
+    "@adonisjs/lucid": "^6.1.3",
+    "@adonisjs/session": "^1.0.27",
+    "@adonisjs/shield": "^1.0.8"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.2"
+  "devDependencies": {},
+  "autoload": {
+    "App": "./app"
   }
 }
